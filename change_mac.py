@@ -19,8 +19,6 @@ def change_mac(interface, mac):
         subprocess.run(["ip", "link", "set", interface, "up"], check=True)
     except subprocess.CalledProcessError:
         print(f"Failed to change MAC address for {interface}")
-        return False
-    return True
 
 def main():
     parser = argparse.ArgumentParser(description="MAC changer")
