@@ -12,5 +12,5 @@ It must be executed with root! (Use sudo)
 
 ## Example:
 ``
-mac_changer.py -i eth0 -a 92:B1:B3:44:D1:86
+sudo python3 change_mac.py -i eth0 -a 02:1A:2B:3C:4D:5E
 ``
